@@ -2,7 +2,7 @@
   {
       "caption": "Test Day 1 With a moderately long caption such as I might make on any given day",
       "numbered": 1000,
-      "day": "M",
+      "day": "TUE",
       "week": 1000,
       "water": true,
       "work": true,
@@ -26,7 +26,7 @@
   {
       "caption": "Test Day 2 This day is meant to show what I day might look like if I didn't do so well reaching my goals",
       "numbered": 1000,
-      "day": "T",
+      "day": "MON",
       "week": 1000,
       "water": false,
       "work": false,

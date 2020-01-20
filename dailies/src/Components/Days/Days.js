@@ -14,22 +14,22 @@ class Days extends Component {
             <li><img src={process.env.PUBLIC_URL + '/images/connection.png'}/></li>
             <li><img src={process.env.PUBLIC_URL + '/images/workout.png'}/></li>
             <li><img src={process.env.PUBLIC_URL + '/images/music.png'}/></li>
-            <li><img src={process.env.PUBLIC_URL + '/images/weight.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/weight.png'}/>{day.weight}</li>
             <li>
               <p>{day.caption}</p>
             </li>
-            <li><img src={process.env.PUBLIC_URL + '/images/code.png'}/>{day.code}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/oils.png'}/>{day.oils}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/mindful.png'}/>{day.mindful}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/food.png'}/>{day.food}</li>
+            <li><img src={process.env.PUBLIC_URL + '/images/code.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/oils.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/mindful.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/food.png'}/></li>
             <li>{day.week}</li>
             <li>{day.day}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/read.png'}/>{day.read}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/earth.png'}/>{day.earth}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/outside.png'}/>{day.outside}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/timeSlots.png'}/>{day.timeSlots}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/vitamins.png'}/>{day.vitamins}</li>
-            <li><img src={process.env.PUBLIC_URL + '/images/learn.png'}/>{day.learn}</li>
+            <li><img src={process.env.PUBLIC_URL + '/images/read.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/earth.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/outside.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/timeSlots.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/vitamins.png'}/></li>
+            <li><img src={process.env.PUBLIC_URL + '/images/learn.png'}/></li>
             <li>{day.awake}</li>
             <li>{day.asleep}</li>
           </ul>
