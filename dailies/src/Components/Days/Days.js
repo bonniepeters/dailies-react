@@ -39,7 +39,7 @@ class Days extends Component {
         </section>
       );
     });
-    return <div className="day">{days}</div>;
+    return <div className="days">{days}</div>;
   }
 }
 

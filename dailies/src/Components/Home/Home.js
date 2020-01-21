@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Header from "../Header/Header"
+import Nav from "../Nav/Nav"
 import Days from "../Days/Days"
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
-        <Header />
+        <Nav />
         <Days />
       </div>
     );
