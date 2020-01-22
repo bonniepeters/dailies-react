@@ -7,7 +7,9 @@ class Home extends Component {
     return (
       <div className="home">
         <Nav />
-        <Days />
+        <div className="main">
+          <Days />
+        </div>
       </div>
     );
   }

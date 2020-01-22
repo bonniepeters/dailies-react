@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import data from "../../data.json";
 
+const MAX_LENGTH = 27;
+
 class Days extends Component {
   render() {
     const days = data.map(day => {
@@ -77,14 +79,16 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor:
-                  day.weight < 150 ? "rgba(181,253,254,.7)" : "rgb(234,234,234)"
+                  day.weight < 150
+                    ? "rgba(181, 226, 254, 0.7)"
+                    : "rgb(234,234,234)"
               }}
             >
               <img
                 className="icon-img"
                 src={process.env.PUBLIC_URL + "/images/weight.png"}
               />
-              {/* {day.weight} */}
+              <p className="weight">{day.weight}</p>
             </li>
             <li className="inner-box">
               <p className="caption">{day.caption}</p>
@@ -95,7 +99,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.code
-                  ? "rgba(228,112,205,.7)"
+                  ? "rgba(227,116,166,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -105,7 +109,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.oils
-                  ? "rgba(179,252,208,.7)"
+                  ? "rgba(181,253,254,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -115,7 +119,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.mindful
-                  ? "rgba(227,116,166,.7)"
+                  ? "rgba(226,117,105,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -125,7 +129,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.food
-                  ? "rgba(178,253,170,.7)"
+                  ? "rgba(179,252,208,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -135,7 +139,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.read
-                  ? "rgba(226,117,105,.7)"
+                  ? "rgba(232,149,105,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -145,7 +149,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.earth
-                  ? "rgba(177,253,103,.7)"
+                  ? "rgba(178,253,170,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -155,7 +159,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.outside
-                  ? "rgba(224,253,104,.7)"
+                  ? "rgba(177,253,103,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -165,7 +169,9 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor:
-                  day.timeSlots > 30 ? "rgba(254,253,105,.7)" : "rgb(234,234,234)"
+                  day.timeSlots > 30
+                    ? "rgba(224,253,104,.7)"
+                    : "rgb(234,234,234)"
               }}
             >
               <img src={process.env.PUBLIC_URL + "/images/timeSlots.png"} />
@@ -174,7 +180,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.vitamins
-                  ? "rgba(254,194,112,.7)"
+                  ? "rgba(254,253,105,.7)"
                   : "rgb(234,234,234)"
               }}
             >
@@ -184,7 +190,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor: day.learn
-                  ? "rgba(232,149,105,.7)"
+                  ? "rgba(254,194,112,.7)"
                   : "rgb(234,234,234)"
               }}
             >
