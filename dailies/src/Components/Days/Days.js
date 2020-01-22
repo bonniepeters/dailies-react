@@ -175,6 +175,17 @@ class Days extends Component {
               }}
             >
               <img src={process.env.PUBLIC_URL + "/images/timeSlots.png"} />
+              <p
+                className="time"
+                style={{
+                  backgroundColor:
+                    day.timeSlots > 30
+                      ? "rgb(230,253,141)"
+                      : "rgb(234,234,234)"
+                }}
+              >
+                {day.timeSlots}
+              </p>
             </li>
             <li
               className="icon"

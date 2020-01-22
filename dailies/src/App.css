@@ -192,10 +192,16 @@ p {
 }
 
 .weight {
+    font-size: 1.25em;
     position: absolute;
-    margin: -42px 14px;
+    margin: -45px 9px;
 }
-
+.time {
+    position: absolute;
+    font-size: 1.5em;
+    margin: -47px 20px;
+    border-radius: 50%;
+}
 
 @media (min-width: 48em) {
 /*********************** Nav ***********************/
