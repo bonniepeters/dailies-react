@@ -134,11 +134,11 @@ img {
 }
 section {
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
 }
 h2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 600%;
     margin: 0;
 }
 p {
@@ -146,7 +146,7 @@ p {
 }
 .wrapper {
     background-color: rgb(255, 255, 255);
-    width: 350px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 0;
     list-style: none;
@@ -168,7 +168,7 @@ p {
     grid-template-rows: (80%, 20%);
 }
 .caption {
-    font-size: 25px;
+    font-size: 165%;
     grid-column-start: 1; 
     grid-column-end: 3; 
     grid-row-start: 1; 
@@ -179,7 +179,7 @@ p {
 .day-week, .week-number {
     margin: 20% 0 0 0;
     align-self: end;
-    font-size: 35px;
+    font-size: 150%;
 }
 .week-number {
     justify-self: end;
@@ -187,19 +187,19 @@ p {
 .sleep {
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 150%;
     margin: 0;
 }
 
 .weight {
     font-size: 1.25em;
     position: absolute;
-    margin: -45px 9px;
+    margin: -48px 10px;
 }
 .time {
     position: absolute;
     font-size: 1.5em;
-    margin: -47px 20px;
+    margin: -49px 23px;
     border-radius: 50%;
 }
 
@@ -209,7 +209,8 @@ p {
             float: left;
         }
         .header li a {
-            padding: 30px 40px;
+            font-size: 1.3em;
+            padding: 23.75px 40px;
             height: 100%;
 
         }
@@ -225,4 +226,18 @@ p {
             display: flex;
             flex-wrap: wrap;
         }
+        section {
+            width: 250px;
+            font-size: 66%;
+        }
+        .wrapper {
+            padding: 2px 5px 2px 2px;
+        }
+        .weight {
+            margin: -31px 8px;
+        }
+        .time {
+            margin: -32px 15px;
+        }
+
     }
