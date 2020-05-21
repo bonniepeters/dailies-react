@@ -79,7 +79,7 @@ class Days extends Component {
               className="icon"
               style={{
                 backgroundColor:
-                  day.weight < 150
+                  day.weightDown
                     ? "rgba(181, 226, 254, 0.7)"
                     : "rgb(234,234,234)"
               }}
