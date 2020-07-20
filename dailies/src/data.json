@@ -76,5 +76,31 @@
     "weightDown": false,
     "awake": "05:50:00",
     "asleep": "22:15:00"
+  },
+  {
+    "caption": "Fighting the urge to treat creativity as a means to an end",
+    "numbered": 10131,
+    "day": "MON",
+    "date": "07/20/2020",
+    "week": 1448,
+    "water": false,
+    "work": true,
+    "connect": true,
+    "workout": true,
+    "music": true,
+    "code": true,
+    "mindful": false,
+    "read": true,
+    "learn": false,
+    "vitamins": true,
+    "timeSlots": 0,
+    "outside": true,
+    "earth": false,
+    "food": true,
+    "oils": true,
+    "weight": "173.3",
+    "weightDown": false,
+    "awake": "05:34:00",
+    "asleep": "22:15:00"
   }
 ]
